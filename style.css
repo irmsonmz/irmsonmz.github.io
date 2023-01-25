@@ -1,0 +1,374 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  min-height: 100% !important;
+  height: 100%;
+  font-size: 10px;
+  font-family: monospace;
+}
+
+#background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* First Page - Navbar */
+
+#wrapper {
+  display: flex;
+  height: 100%;
+}
+
+#first-page20 {
+  flex-grow: 1;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  align-items: center;
+}
+
+#first-page20 .picture {
+  display: flex;
+  border-radius: 50%;
+  height: 12rem;
+  border: 10px solid #333;
+  margin-top: 10rem;
+}
+
+#first-page20 .name {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+}
+
+#first-page20 .navbar-item {
+  margin: 1rem;
+}
+
+#first-page20 .navbar-item a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+#first-page80 {
+  flex-grow: 4;
+  background-color: transparent;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#first-page80 .welcome {
+  color: rgb(180, 183, 185);
+  transition: color, font-size 2s;
+  font-size: 4rem;
+}
+
+#first-page80 .mainname {
+  color: rgb(180, 183, 185);
+  transition: color, font-size 2s;
+  font-size: 5rem;
+}
+
+#first-page80 .mytitle {
+  color: rgb(180, 183, 185);
+  transition: color, font-size 2s;
+  font-size: 3rem;
+}
+
+#first-page80 h1:hover {
+  color: whitesmoke;
+  font-size: 6rem;
+  cursor: pointer;
+}
+
+/* Second Page - About Me */
+
+#about-me-page {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.about-me-page20 {
+  width: 20%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  float: left;
+}
+
+.about-me-page80 {
+  width: 80%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-me-page-top {
+  width: 100%;
+  height: 25vh;
+  background-color: black;
+  color: #fff;
+  font-size: 6rem;
+  margin-top: 10rem;
+}
+
+.about-me-page-center {
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+}
+
+.about-me-page-center .right {
+  width: 70%;
+  height: 50vh;
+  background-color: black;
+  float: left;
+  color: #fff;
+  display: block;
+  font-size: 1.6rem;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.about-me-page-center .left {
+  width: 30%;
+  height: 50vh;
+  background-color: black;
+  float: right;
+  display: block;
+  color: #fff;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  font-size: 2rem;
+  padding-top: 0rem;
+}
+
+.about-me-page-center .left .line {
+  color: black;
+}
+
+.about-me-page-center .left .cv-button {
+  background-color: gray;
+  font-size: 2rem;
+  box-sizing: border-box;
+  width: 18rem;
+  height: 8rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  border-radius: 5rem;
+  transition: background-color 1s;
+}
+
+.about-me-page-center .left .cv-button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.about-me-page-bottom {
+  width: 100%;
+  height: 25vh;
+  background-color: black;
+}
+
+/* Third Page - Skills */
+
+#skills-page {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.skills-page20 {
+  width: 20%;
+  height: 100%;
+  background-color: black;
+  float: left;
+}
+
+.skills-page80 {
+  width: 80%;
+  height: 100%;
+  background-color: black;
+  flex-direction: column;
+  display: flex;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#skills-page h1 {
+  font-size: 5rem;
+}
+
+.divider {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skills-page80 .item {
+  padding: 8rem;
+  margin: 1rem;
+  background-color: black;
+  color: #fff;
+  font-size: 10rem;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+/* Forth Page - Project Page */
+
+#project-page {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.project-page20 {
+  width: 20%;
+  height: 100%;
+  background-color: black;
+  float: left;
+}
+
+.project-page80 {
+  width: 80%;
+  height: 100vh;
+  background-color: black;
+  color: #fff;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.project-page-top {
+  width: 60%;
+  height: 30%;
+  background-color: black;
+  float: left;
+  border-bottom: 3px solid gray;
+}
+
+.project-page-center {
+  width: 60%;
+  height: 30%;
+  background-color: black;
+  float: right;
+  border-bottom: 3px solid gray;
+}
+
+.project-page-bottom {
+  width: 60%;
+  height: 30%;
+  background-color: black;
+  float: left;
+}
+
+#project-page .projects-title {
+  font-size: 4rem;
+  margin: 1rem;
+  margin-left: 10rem;
+}
+
+#project-page p {
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+#project-page h2 {
+  font-size: 3rem;
+  margin: 6rem;
+}
+
+/* Contact */
+
+#contact {
+  width: 100%;
+  height: 33.33%;
+}
+
+#contact .contact20 {
+  width: 20%;
+  height: 100%;
+  background-color: black;
+  float: left;
+}
+
+#contact .contact80 {
+  width: 80%;
+  height: 100%;
+  background-color: black;
+  flex-direction: column;
+  display: flex;
+  color: #fff;
+  text-align: center;
+  /* justify-content: center; */
+}
+
+.divider2 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact-items {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto auto;
+  font-size: 5rem;
+}
+
+.contact-li {
+  display: flex;
+  margin: 4rem;
+  justify-content: center;
+  font-size: 10rem;
+}
+
+.contact-gh {
+  display: flex;
+  margin: 4rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+}
+
+.contact-go {
+  display: flex;
+  margin: 4rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+}
