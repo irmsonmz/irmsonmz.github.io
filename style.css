@@ -3,12 +3,45 @@
   margin: 0;
 }
 
-html,
-body {
+html,body {
   min-height: 100% !important;
+  width: 100%;
   height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html{
   font-size: 10px;
-  font-family: monospace;
+}
+
+@media (min-width:100px){
+  html{
+    font-size:4px
+  }
+}
+
+@media (min-width:576px){
+  html{
+    font-size:5px
+  }
+}
+
+@media (min-width:768px){
+  html{
+    font-size:5px
+  }
+}
+
+@media (min-width:992px){
+  html{
+    font-size:7px
+  }
+}
+
+@media (min-width:1200px){
+  html{
+    font-size:10px
+  }
 }
 
 #background-video {
@@ -30,11 +63,14 @@ a {
   color: #fff;
 }
 
+
+
 /* First Page - Navbar */
 
 #wrapper {
   display: flex;
   height: 100%;
+  width: 100%;
 }
 
 #first-page20 {
@@ -47,8 +83,9 @@ a {
   float: left;
   display: flex;
   flex-direction: column;
-  z-index: 1;
+  z-index: 1000;
   align-items: center;
+  font-weight: 800;
 }
 
 #first-page20 .picture {
@@ -61,45 +98,72 @@ a {
 
 #first-page20 .name {
   font-size: 2.5rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 10rem;
 }
 
 #first-page20 .navbar-item {
-  margin: 1rem;
+  margin: 2rem;
 }
 
 #first-page20 .navbar-item a {
   font-size: 2rem;
   text-decoration: none;
   color: #fff;
+  pointer-events:visible;
+}
+
+@media (max-width:992px){
+  #first-page20 .picture {
+    border: 5px solid #333;
+    margin-top: 40rem;
+  }
+  #first-page20 .name {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 20rem;
+  }
+  #first-page20 .navbar-item {
+    margin: 3rem;
+  }
+  #first-page20 .navbar-item a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: #fff;
+    pointer-events:visible;
+  }
 }
 
 #first-page80 {
   flex-grow: 4;
+  width: 80%;
+  height: 100%;
   background-color: transparent;
   z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
+  font-style: italic;
 }
 
 #first-page80 .welcome {
   color: rgb(180, 183, 185);
   transition: color, font-size 2s;
-  font-size: 4rem;
+  font-size: 5rem;
+  
 }
 
 #first-page80 .mainname {
   color: rgb(180, 183, 185);
   transition: color, font-size 2s;
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 #first-page80 .mytitle {
   color: rgb(180, 183, 185);
   transition: color, font-size 2s;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 #first-page80 h1:hover {
@@ -153,7 +217,7 @@ a {
 }
 
 .about-me-page-center .right {
-  width: 70%;
+  width: 60%;
   height: 50vh;
   background-color: black;
   float: left;
@@ -172,23 +236,20 @@ a {
   display: block;
   color: #fff;
   margin-top: 5rem;
-  margin-left: 5rem;
+  margin-left: 3rem;
   font-size: 2rem;
   padding-top: 0rem;
 }
 
-.about-me-page-center .left .line {
-  color: black;
-}
-
 .about-me-page-center .left .cv-button {
   background-color: gray;
-  font-size: 2rem;
-  box-sizing: border-box;
-  width: 18rem;
-  height: 8rem;
+  font-size: 1rem;
+  box-sizing:border-box;
+  position: absolute;
+  width: 10%;
+  height: 4rem;
   margin-top: 5rem;
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
   border-radius: 5rem;
   transition: background-color 1s;
 }
@@ -204,31 +265,78 @@ a {
   background-color: black;
 }
 
+@media (max-width:992px){
+  .about-me-page-center {
+    width: 70%;
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    margin: auto;
+  }
+  .about-me-page-center .right{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+  
+  }
+  .about-me-page-center .left{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+  }
+  .about-me-page-center .left .cv-button {
+    background-color: gray;
+    font-size: 1rem;
+    box-sizing:border-box;
+    position: relative;
+    width: 10%;
+    height: 4rem;
+    margin:1rem;
+    /* margin-left: 5rem; */
+    border-radius: 5rem;
+    transition: background-color 1s;
+  }
+}
+
 /* Third Page - Skills */
 
 #skills-page {
   width: 100%;
   height: 100vh;
-  background-color: black;
+  background-color: #111418;
 }
 
 .skills-page20 {
   width: 20%;
   height: 100%;
-  background-color: black;
+  background-color: #111418;
   float: left;
 }
 
 .skills-page80 {
   width: 80%;
   height: 100%;
-  background-color: black;
+  background-color: #111418;
   flex-direction: column;
   display: flex;
   color: #fff;
   text-align: center;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 #skills-page h1 {
@@ -243,7 +351,7 @@ a {
 .skills-page80 .item {
   padding: 8rem;
   margin: 1rem;
-  background-color: black;
+  background-color: #111418;
   color: #fff;
   font-size: 10rem;
   justify-content: space-evenly;
@@ -330,7 +438,7 @@ a {
 #contact .contact80 {
   width: 80%;
   height: 100%;
-  background-color: black;
+  background-color: #111418;
   flex-direction: column;
   display: flex;
   color: #fff;
@@ -341,6 +449,14 @@ a {
 .divider2 {
   width: 80%;
   margin: 0 auto;
+}
+
+.contact80 h1{
+  font-size: 4rem;
+  margin-top: 4rem;
+  margin-left: 5rem;
+  position: absolute;
+  left: auto;
 }
 
 .contact-items {
