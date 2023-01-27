@@ -23,13 +23,13 @@ html{
 
 @media (min-width:576px){
   html{
-    font-size:5px
+    font-size: 5px;
   }
 }
 
 @media (min-width:768px){
   html{
-    font-size:5px
+    font-size:6px
   }
 }
 
@@ -63,8 +63,6 @@ a {
   text-decoration: none;
   color: #fff;
 }
-
-
 
 /* First Page - Navbar */
 
@@ -114,10 +112,135 @@ a {
   pointer-events:visible;
 }
 
-@media (max-width:992px){
+
+
+
+/* First Page - Media Queries */
+
+@media (min-width:100px){
+  #first-page20 {
+    position: absolute;
+  }
   #first-page20 .picture {
     border: 5px solid #333;
     margin-top: 40rem;
+  }
+  #first-page20 .name {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 20rem;
+  }
+  #first-page20 .navbar-item {
+    margin: 3rem;
+  }
+  #first-page20 .navbar-item a {
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #fff;
+    /* pointer-events:visible; */
+  }
+}
+
+@media (min-width:576px){
+  #first-page20 {
+    position: absolute;
+  }
+  #first-page20 .picture {
+    border: 5px solid #333;
+    margin-top: 30rem;
+  }
+  #first-page20 .name {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 20rem;
+  }
+  #first-page20 .navbar-item {
+    margin: 3rem;
+  }
+  #first-page20 .navbar-item a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: #fff;
+    /* pointer-events:visible; */
+  }
+}
+
+@media (min-width:768px){
+  #first-page20 {
+    position: fixed;
+  }
+  #first-page20 .picture {
+    border: 5px solid #333;
+    margin-top: 20rem;
+  }
+  #first-page20 .name {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 20rem;
+  }
+  #first-page20 .navbar-item {
+    margin: 3rem;
+  }
+  #first-page20 .navbar-item a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: #fff;
+    /* pointer-events:visible; */
+  }
+}
+
+@media (min-width:992px){
+  #first-page20 {
+    position: fixed;
+  }
+  #first-page20 .picture {
+    border: 5px solid #333;
+    margin-top: 20rem;
+  }
+  #first-page20 .name {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 15rem;
+  }
+  #first-page20 .navbar-item {
+    margin: 2rem;
+  }
+  #first-page20 .navbar-item a {
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #fff;
+    /* pointer-events:visible; */
+  }
+}
+
+@media (min-width:1200px){
+  #first-page20 {
+    position: fixed;
+  }
+  #first-page20 .picture {
+    border: 5px solid #333;
+    margin-top: 12rem;
+  }
+  #first-page20 .name {
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+  }
+  #first-page20 .navbar-item {
+    margin: 1.5rem;
+  }
+  #first-page20 .navbar-item a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    /* pointer-events:visible; */
+  }
+}
+
+/* @media (max-width:992px){
+  #first-page20 .picture {
+    border: 5px solid #333;
+    margin-top: 20rem;
   }
   #first-page20 .name {
     font-size: 3rem;
@@ -133,7 +256,7 @@ a {
     color: #fff;
     pointer-events:visible;
   }
-}
+} */
 
 #first-page80 {
   flex-grow: 4;
@@ -172,6 +295,108 @@ a {
   font-size: 6rem;
   cursor: pointer;
 }
+
+
+
+
+@media (min-width:100px){
+  #first-page80 {
+    flex-grow: 4;
+    width: 80%;
+    height: 100%;
+    margin-left: 30rem;
+    background-color: transparent;
+    display: flex;
+    font-style: italic;
+  }
+  #first-page80 .welcome {
+    color: rgb(180, 183, 185);
+    font-size: 5rem;
+  }
+  #first-page80 .mainname {
+    color: rgb(180, 183, 185);
+    font-size: 5.5rem;
+  }
+  #first-page80 .mytitle {
+    color: rgb(180, 183, 185);
+    font-size: 4rem;
+  }
+}
+
+@media (min-width:576px){
+  #first-page80 .welcome {
+    color: rgb(180, 183, 185);
+    transition: color, font-size 2s;
+    font-size: 7.5rem;
+  }
+  #first-page80 .mainname {
+    color: rgb(180, 183, 185);
+    transition: color, font-size 2s;
+    font-size: 6rem;
+  }
+  #first-page80 .mytitle {
+    color: rgb(180, 183, 185);
+    transition: color, font-size 2s;
+    font-size: 4rem;
+  }
+}
+
+@media (min-width:768px){
+  #first-page80 .welcome {
+    color: rgb(180, 183, 185);
+    transition: color, font-size 2s;
+    font-size: 7.5rem;
+  }
+  #first-page80 .mainname {
+    color: rgb(180, 183, 185);
+    transition: color, font-size 2s;
+    font-size: 6rem;
+  }
+  #first-page80 .mytitle {
+    color: rgb(180, 183, 185);
+    transition: color, font-size 2s;
+    font-size: 4rem;
+  }
+}
+
+@media (min-width:992px){
+  #first-page80 .welcome {
+    color: rgb(180, 183, 185);
+    transition: color, font-size 2s;
+    font-size: 7.5rem;
+  }
+  #first-page80 .mainname {
+    color: rgb(180, 183, 185);
+    transition: color, font-size 2s;
+    font-size: 6rem;
+  }
+  #first-page80 .mytitle {
+    color: rgb(180, 183, 185);
+    transition: color, font-size 2s;
+    font-size: 4rem;
+  }
+}
+
+@media (min-width:1200px){
+  #first-page80 .welcome {
+    color: rgb(180, 183, 185);
+    transition: color, font-size 2s;
+    font-size: 7.5rem;
+  }
+  #first-page80 .mainname {
+    color: rgb(180, 183, 185);
+    transition: color, font-size 2s;
+    font-size: 6rem;
+  }
+  #first-page80 .mytitle {
+    color: rgb(180, 183, 185);
+    transition: color, font-size 2s;
+    font-size: 4rem;
+  }
+}
+
+
+
 
 /* Second Page - About Me */
 
@@ -266,12 +491,34 @@ a {
   background-color: black;
 }
 
-@media (max-width:992px){
-  .about-me-page-center {
-    width: 70%;
+/* Second Page - Media Queries */
+
+@media (min-width:100px){
+  #about-me-page {
+    width: 100%;
+    height: 100%;
+  }
+  .about-me-page20 {
+    width: 0%;
+    height: 100%;
+  }
+  .about-me-page80 {
+    width: 100%;
+    height: 100%;
+  }
+  .about-me-page-top {
+    width: 100%;
     height: 30vh;
     background-color: black;
+    font-size: 8rem;
+    margin-top: 25rem;
+    margin-bottom: 15rem;
+  }
+  .about-me-page-center {
+    width: 100%;
+    height: 70vh;
     display: flex;
+    background-color: black;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -279,39 +526,375 @@ a {
     margin: auto;
   }
   .about-me-page-center .right{
-    width: 100%;
-    height: 50vh;
+    width: 70%;
+    height: 80vh;
     background-color: black;
+    font-size: 3rem;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
     text-align: center;
     align-items: center;
     margin: auto;
-  
+    margin-top: 10rem;
+    margin-bottom: 15rem;
   }
   .about-me-page-center .left{
+    width: 74%;
+    height: 80vh;
+    background-color: black;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    text-align: left;
+    /* align-items: center; */
+    margin: auto;
+    margin-bottom: 20rem;
+  }
+  .about-me-page-center .left .cv-button {
+    background-color: gray;
+    font-size: 1.8rem;
+    box-sizing:border-box;
+    position: relative;
+    width: 18%;
+    height: 8rem;
+    margin-left:auto;
+    border-radius: 5rem;
+  }
+}
+
+
+@media (min-width:576px){
+  #about-me-page {
+    width: 100%;
+    height: 100%;
+  }
+  .about-me-page20 {
+    width: 0%;
+    height: 100%;
+  }
+  .about-me-page80 {
+    width: 100%;
+    height: 100%;
+  }
+  .about-me-page-top {
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    font-size: 8rem;
+    margin-top: 25rem;
+    margin-bottom: 15rem;
+  }
+  .about-me-page-center {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    margin: auto;
+  }
+  .about-me-page-center .right{
+    width: 70%;
+    height: 80vh;
+    background-color: black;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+  }
+  .about-me-page-center .left{
+    width: 74%;
+    height: 80vh;
+    background-color: black;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    text-align: left;
+    /* align-items: center; */
+    margin: auto;
+    margin-bottom: 20rem;
+  }
+  .about-me-page-center .left .cv-button {
+    background-color: gray;
+    font-size: 1.8rem;
+    box-sizing:border-box;
+    position: relative;
+    width: 18%;
+    height: 8rem;
+    margin-left:auto;
+    border-radius: 5rem;
+  }
+}
+
+@media (min-width:768px){
+  #about-me-page {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+  
+  .about-me-page20 {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    float: left;
+  }
+  
+  .about-me-page80 {
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .about-me-page-top {
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    color: #fff;
+    font-size: 7rem;
+    margin-top: 15rem;
+  }
+  
+  .about-me-page-center {
     width: 100%;
     height: 50vh;
     background-color: black;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: center;
     text-align: left;
   }
+  
+  .about-me-page-center .right {
+    width: 70%;
+    height: 50vh;
+    background-color: black;
+    float: left;
+    color: #fff;
+    display: block;
+    font-size: 2rem;
+    margin: 3rem;
+  }
+  
+  .about-me-page-center .left {
+    width: 30%;
+    height: 50vh;
+    background-color: black;
+    float: right;
+    display: block;
+    color: #fff;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    font-size: 1.6rem;
+  }
+  
   .about-me-page-center .left .cv-button {
     background-color: gray;
-    font-size: 1rem;
+    font-size: 2rem;
     box-sizing:border-box;
-    position: relative;
-    width: 10%;
-    height: 4rem;
-    margin:1rem;
+    position: absolute;
+    width: 13%;
+    height: 5rem;
+    margin-top: 5rem;
     /* margin-left: 5rem; */
     border-radius: 5rem;
     transition: background-color 1s;
   }
+  .about-me-page-center .left .cv-button:hover {
+    background-color: red;
+    cursor: pointer;
+  }
+  .about-me-page-bottom {
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+  }
 }
+
+@media (min-width:992px){
+  #about-me-page {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+  .about-me-page20 {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    float: left;
+  }
+  .about-me-page80 {
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .about-me-page-top {
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    color: #fff;
+    font-size: 7rem;
+    margin-top: 15rem;
+  }
+  .about-me-page-center {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+  .about-me-page-center .right {
+    width: 70%;
+    height: 50vh;
+    background-color: black;
+    float: left;
+    color: #fff;
+    display: block;
+    font-size: 2rem;
+    margin: 4rem;
+  }
+  .about-me-page-center .left {
+    width: 30%;
+    height: 50vh;
+    background-color: black;
+    float: right;
+    display: block;
+    color: #fff;
+    margin-top: 7rem;
+    margin-left: 2rem;
+    font-size: 1.6rem;
+  }
+  
+  .about-me-page-center .left .cv-button {
+    background-color: gray;
+    font-size: 2rem;
+    box-sizing:border-box;
+    position: absolute;
+    width: 13%;
+    height: 5rem;
+    margin-top: 5rem;
+    /* margin-left: 5rem; */
+    border-radius: 5rem;
+    transition: background-color 1s;
+  }
+  .about-me-page-center .left .cv-button:hover {
+    background-color: red;
+    cursor: pointer;
+  }
+  .about-me-page-bottom {
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+  }
+}
+
+@media (min-width:1200px){
+  #about-me-page {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+  .about-me-page20 {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    float: left;
+  }
+  .about-me-page80 {
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .about-me-page-top {
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    color: #fff;
+    font-size: 7rem;
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+  .about-me-page-center {
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 5rem;
+  }
+  .about-me-page-center .right {
+    width: 70%;
+    height: 50vh;
+    background-color: black;
+    float: left;
+    color: #fff;
+    display: block;
+    font-size: 1.8rem;
+    margin-bottom: 10rem;
+  }
+  .about-me-page-center .left {
+    width: 30%;
+    height: 50vh;
+    background-color: black;
+    float: right;
+    display: block;
+    color: #fff;
+    margin-top: 8rem;
+    margin-left: 2rem;
+    font-size: 1.6rem;
+  }
+  
+  .about-me-page-center .left .cv-button {
+    background-color: gray;
+    font-size: 2rem;
+    box-sizing:border-box;
+    position: absolute;
+    width: 13%;
+    height: 5rem;
+    margin-top: 5rem;
+    /* margin-left: 5rem; */
+    border-radius: 5rem;
+    transition: background-color 1s;
+  }
+  .about-me-page-center .left .cv-button:hover {
+    background-color: red;
+    cursor: pointer;
+  }
+  .about-me-page-bottom {
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+  }
+}
+
+
+
 
 /* Third Page - Skills */
 
