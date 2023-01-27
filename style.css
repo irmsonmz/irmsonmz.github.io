@@ -780,7 +780,7 @@ a {
     float: right;
     display: block;
     color: #fff;
-    margin-top: 7rem;
+    margin-top: 5rem;
     margin-left: 2rem;
     font-size: 1.6rem;
   }
@@ -840,7 +840,7 @@ a {
   }
   .about-me-page-center {
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     background-color: black;
     display: flex;
     flex-direction: row;
@@ -855,17 +855,19 @@ a {
     float: left;
     color: #fff;
     display: block;
+    box-sizing: border-box;
     font-size: 1.8rem;
-    margin-bottom: 10rem;
+    padding-bottom: 10rem;
   }
   .about-me-page-center .left {
     width: 30%;
     height: 50vh;
     background-color: black;
+    box-sizing: border-box;
     float: right;
     display: block;
     color: #fff;
-    margin-top: 8rem;
+    padding-bottom: 10rem;
     margin-left: 2rem;
     font-size: 1.6rem;
   }
@@ -942,6 +944,252 @@ a {
   display: flex;
 }
 
+
+
+/* Skills Media Queries */
+
+@media (min-width:100px){
+  #skills-page {
+    width: 100%;
+    height: 100vh;
+    background-color: #111418;
+  }
+  
+  .skills-page20 {
+    width: 0%;
+    height: 100%;
+    background-color: #111418;
+    float: left;
+  }
+  
+  .skills-page80 {
+    width: 100%;
+    height: 100%;
+    background-color: #111418;
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+  }
+  
+  #skills-page h1 {
+    font-size: 8rem;
+    margin-bottom: 30rem;
+  }
+  
+  .divider {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .skills-page80 .item {
+    /* padding: 10rem;
+    margin: 0rem; */
+    background-color: #111418;
+    color: #fff;
+    font-size: 12rem;
+    justify-content: space-evenly;
+    display: flex;
+  }
+}
+
+@media (min-width:576px){
+  #skills-page {
+    width: 100%;
+    height: 100vh;
+    background-color: #111418;
+  }
+  
+  .skills-page20 {
+    width: 0%;
+    height: 100%;
+    background-color: #111418;
+    float: left;
+  }
+  
+  .skills-page80 {
+    width: 100%;
+    height: 100%;
+    background-color: #111418;
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+  }
+  
+  #skills-page h1 {
+    font-size: 9rem;
+    margin-bottom: 30rem;
+  }
+  
+  .divider {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .skills-page80 .item {
+    /* padding: 10rem;
+    margin: 0rem; */
+    background-color: #111418;
+    color: #fff;
+    font-size: 12rem;
+    justify-content: space-evenly;
+    display: flex;
+  }
+}
+
+@media (min-width:768px){
+  #skills-page {
+    width: 100%;
+    height: 100vh;
+    background-color: #111418;
+  }
+  
+  .skills-page20 {
+    width: 20%;
+    height: 100%;
+    background-color: #111418;
+    float: left;
+  }
+  
+  .skills-page80 {
+    width: 80%;
+    height: 100%;
+    background-color: #111418;
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+  }
+  
+  #skills-page h1 {
+    font-size: 9rem;
+    margin-bottom: 30rem;
+  }
+  
+  .divider {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .skills-page80 .item {
+    /* padding: 10rem;
+    margin: 0rem; */
+    background-color: #111418;
+    color: #fff;
+    font-size: 12rem;
+    justify-content: space-evenly;
+    display: flex;
+  }
+}
+
+@media (min-width:992px){
+  #skills-page {
+    width: 100%;
+    height: 100vh;
+    background-color: #111418;
+  }
+  
+  .skills-page20 {
+    width: 20%;
+    height: 100%;
+    background-color: #111418;
+    float: left;
+  }
+  
+  .skills-page80 {
+    width: 80%;
+    height: 100%;
+    background-color: #111418;
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+  }
+  
+  #skills-page h1 {
+    font-size: 8rem;
+    margin-bottom: 10rem;
+    box-sizing: border-box;
+    /* margin-top: 15rem; */
+  }
+  
+  .divider {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .skills-page80 .item {
+    /* padding: 10rem;
+    margin: 0rem; */
+    background-color: #111418;
+    color: #fff;
+    font-size: 10rem;
+    justify-content: space-evenly;
+    display: flex;
+  }
+}
+
+@media (min-width:1200px){
+  #skills-page {
+    width: 100%;
+    height: 100vh;
+    background-color: #111418;
+  }
+  
+  .skills-page20 {
+    width: 20%;
+    height: 100%;
+    background-color: #111418;
+    float: left;
+  }
+  
+  .skills-page80 {
+    width: 80%;
+    height: 100%;
+    background-color: #111418;
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+  }
+  
+  #skills-page h1 {
+    font-size: 7rem;
+    /* margin-bottom: 10rem; */
+    /* margin-top: 10rem; */
+  }
+  
+  .divider {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .skills-page80 .item {
+    /* padding: 10rem;
+    margin: 0rem; */
+    background-color: #111418;
+    color: #fff;
+    font-size: 8rem;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  
+}
+
+
+
+
 /* Forth Page - Project Page */
 
 #project-page {
@@ -971,7 +1219,7 @@ a {
   height: 30%;
   background-color: black;
   float: left;
-  border-bottom: 3px solid gray;
+  border-left: 3px solid gray;
 }
 
 .project-page-center {
@@ -979,7 +1227,7 @@ a {
   height: 30%;
   background-color: black;
   float: right;
-  border-bottom: 3px solid gray;
+  border-left: 3px solid gray;
 }
 
 .project-page-bottom {
@@ -987,6 +1235,7 @@ a {
   height: 30%;
   background-color: black;
   float: left;
+  border-left: 3px solid gray;
 }
 
 #project-page .projects-title {
@@ -997,31 +1246,427 @@ a {
 
 #project-page p {
   font-size: 2rem;
-  margin: 2rem;
+  /* margin: 2rem; */
 }
 
 #project-page h2 {
   font-size: 3rem;
-  margin: 6rem;
+  /* margin: 6rem; */
 }
+
+
+/* Projects Media Queries */
+
+@media (min-width:100px){
+  #project-page {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .project-page20 {
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    float: left;
+  }
+  
+  .project-page80 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .project-page-top {
+    width: 60%;
+    height: 20%;
+    background-color: black;
+    float: left;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    border-left: 3px solid gray;
+    padding-left: 5rem;
+    padding-top: 5rem;
+  }
+  
+  .project-page-center {
+    width: 60%;
+    height: 20%;
+    background-color: black;
+    float: right;
+    margin-top: 10rem;
+    margin-right: 10rem;
+    border-left: 3px solid gray;
+    padding-left: 5rem;
+    padding-top: 5rem;
+  }
+  
+  .project-page-bottom {
+    width: 60%;
+    height: 20%;
+    background-color: black;
+    float: left;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    padding-left: 5rem;
+    padding-top: 5rem;
+  }
+  
+  #project-page .projects-title {
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    margin-top: 15rem;
+    margin-left: 10rem;
+  }
+  
+  #project-page p {
+    font-size: 3rem;
+    margin-top: 5rem;
+    padding-left: 5rem;
+  }
+  
+  #project-page h2 {
+    font-size: 3.5rem;
+    text-align: left;
+  }
+}
+
+@media (min-width:576px){
+  #project-page {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .project-page20 {
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    float: left;
+  }
+  
+  .project-page80 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .project-page-top {
+    width: 60%;
+    height: 20%;
+    background-color: black;
+    float: left;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    border-left: 3px solid gray;
+    padding-left: 5rem;
+    padding-top: 5rem;
+  }
+  
+  .project-page-center {
+    width: 60%;
+    height: 20%;
+    background-color: black;
+    float: right;
+    margin-top: 5rem;
+    margin-right: 10rem;
+    border-left: 3px solid gray;
+    padding-left: 5rem;
+    padding-top: 5rem;
+  }
+  
+  .project-page-bottom {
+    width: 60%;
+    height: 20%;
+    background-color: black;
+    float: left;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  #project-page .projects-title {
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    margin-top: 15rem;
+    margin-left: 10rem;
+  }
+  
+  #project-page p {
+    font-size: 2.7rem;
+    margin-top: 5rem;
+    padding-left: 5rem;
+  }
+  
+  #project-page h2 {
+    font-size: 3.2rem;
+    text-align: left;
+  }
+}
+
+@media (min-width:768px){
+  #project-page {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .project-page20 {
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    float: left;
+  }
+  
+  .project-page80 {
+    width: 80%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .project-page-top {
+    width: 65%;
+    height: 15%;
+    background-color: black;
+    float: left;
+    margin-left: 10rem;
+    /* margin-top: 5rem; */
+    border-left: 3px solid gray;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  
+  .project-page-center {
+    width: 65%;
+    height: 15%;
+    background-color: black;
+    float: right;
+    margin-top: 5rem;
+    margin-right: 10rem;
+    border-left: 3px solid gray;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  
+  .project-page-bottom {
+    width: 65%;
+    height: 15%;
+    background-color: black;
+    float: left;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+  }
+  
+  #project-page .projects-title {
+    font-size: 6rem;
+    margin-top: 12rem;
+    margin-left: 10rem;
+  }
+  
+  #project-page p {
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    padding-left: 5rem;
+  }
+  
+  #project-page h2 {
+    font-size: 3.2rem;
+    text-align: left;
+  }
+}
+
+@media (min-width:992px){
+  #project-page {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .project-page20 {
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    float: left;
+  }
+  
+  .project-page80 {
+    width: 80%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .project-page-top {
+    width: 70%;
+    height: 15%;
+    background-color: black;
+    float: left;
+    margin-left: 10rem;
+    /* margin-top: 5rem; */
+    border-left: 3px solid gray;
+    padding-left: 5rem;
+    padding-top: 3rem;
+  }
+  
+  .project-page-center {
+    width: 70%;
+    height: 15%;
+    background-color: black;
+    float: right;
+    margin-top: 2rem;
+    margin-right: 10rem;
+    border-left: 3px solid gray;
+    padding-left: 5rem;
+    padding-top: 5rem;
+  }
+  
+  .project-page-bottom {
+    width: 70%;
+    height: 15%;
+    background-color: black;
+    float: left;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  #project-page .projects-title {
+    font-size: 6rem;
+    margin-top: 12rem;
+    margin-left: 10rem;
+  }
+  
+  #project-page p {
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    padding-left: 5rem;
+  }
+  
+  #project-page h2 {
+    font-size: 3.2rem;
+    text-align: left;
+  }
+}
+
+@media (min-width:1200px){
+  #project-page {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .project-page20 {
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    float: left;
+  }
+  
+  .project-page80 {
+    width: 80%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .project-page-top {
+    width: 70%;
+    height: 12%;
+    background-color: black;
+    float: left;
+    margin-left: 10rem;
+    /* margin-top: 5rem; */
+    border-left: 3px solid gray;
+    padding-left: 5rem;
+    padding-top: 2rem;
+  }
+  
+  .project-page-center {
+    width: 70%;
+    height: 12%;
+    background-color: black;
+    float: right;
+    margin-top: 1rem;
+    margin-right: 10rem;
+    border-left: 3px solid gray;
+    padding-left: 5rem;
+    padding-top: 2rem;
+  }
+  
+  .project-page-bottom {
+    width: 70%;
+    height: 12%;
+    background-color: black;
+    float: left;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
+  
+  #project-page .projects-title {
+    font-size: 5rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+  }
+  
+  #project-page p {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    padding-left: 5rem;
+  }
+  
+  #project-page h2 {
+    font-size: 2.3rem;
+    text-align: left;
+  }
+}
+
+
+
 
 /* Contact */
 
-#contact {
+/* #contact {
   width: 100%;
-  height: 33.33%;
-}
+  height: 50vh;
+  background-color: black;
+} */
 
 #contact .contact20 {
   width: 20%;
-  height: 100%;
+  height: 50%;
   background-color: black;
   float: left;
 }
 
 #contact .contact80 {
   width: 80%;
-  height: 100%;
+  height: 50%;
   background-color: #111418;
   flex-direction: column;
   display: flex;
@@ -1031,7 +1676,7 @@ a {
 }
 
 .divider2 {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -1071,4 +1716,356 @@ a {
   align-items: center;
   justify-content: center;
   font-size: 5rem;
+}
+
+
+/* Contact Media Queries */
+
+@media (min-width:100px){
+  /* #contact {
+    width: 100%;
+    height: 50%;
+  } */
+  
+  #contact .contact20 {
+    width: 0%;
+    height: 50%;
+    background-color: black;
+    float: left;
+  }
+  
+  #contact .contact80 {
+    width: 100%;
+    height: 50%;
+    background-color: #111418;
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    /* justify-content: center; */
+  }
+  
+  .divider2 {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .contact80 h1{
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-left: 8rem;
+    position: absolute;
+    left: auto;
+  }
+  
+  .contact-items {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto auto;
+    font-size: 5rem;
+  }
+  
+  .contact-li {
+    display: flex;
+    margin: 4rem;
+    justify-content: center;
+    font-size: 10rem;
+  }
+  
+  .contact-gh {
+    display: flex;
+    margin: 4rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+  }
+  
+  .contact-go {
+    display: flex;
+    margin: 4rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+  }
+}
+
+@media (min-width:576px){
+  /* #contact {
+    width: 100%;
+    height: 50%;
+  } */
+  
+  #contact .contact20 {
+    width: 0%;
+    height: 50%;
+    background-color: black;
+    float: left;
+  }
+  
+  #contact .contact80 {
+    width: 100%;
+    height: 50%;
+    background-color: #111418;
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    /* justify-content: center; */
+  }
+  
+  .divider2 {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .contact80 h1{
+    font-size: 4rem;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    position: absolute;
+    left: auto;
+  }
+  
+  .contact-items {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto auto;
+    font-size: 5rem;
+  }
+  
+  .contact-li {
+    display: flex;
+    margin: 4rem;
+    justify-content: center;
+    font-size: 10rem;
+  }
+  
+  .contact-gh {
+    display: flex;
+    margin: 4rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+  }
+  
+  .contact-go {
+    display: flex;
+    margin: 4rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+  }
+}
+
+@media (min-width:768px){
+  /* #contact {
+    width: 100%;
+    height: 50%;
+  } */
+  
+  #contact .contact20 {
+    width: 20%;
+    height: 50%;
+    background-color: black;
+    float: left;
+  }
+  
+  #contact .contact80 {
+    width: 100%;
+    height: 50%;
+    background-color: #111418;
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    /* justify-content: center; */
+  }
+  
+  .divider2 {
+    width: 50%;
+    /* margin: 0 auto; */
+    margin-left: 50rem;
+  }
+  
+  .contact80 h1{
+    font-size: 3.5rem;
+    margin-top: 4rem;
+    margin-left: 35rem;
+    position: absolute;
+    left: auto;
+  }
+  
+  .contact-items {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto auto;
+    font-size: 5rem;
+    margin-top: 5rem;
+    margin-left: 60rem;
+  }
+  
+  .contact-li {
+    display: flex;
+    margin: 4rem;
+    justify-content: center;
+    font-size: 10rem;
+  }
+  
+  .contact-gh {
+    display: flex;
+    margin: 4rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+  }
+  
+  .contact-go {
+    display: flex;
+    margin: 4rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+  }
+}
+
+@media (min-width:992px){
+  /* #contact {
+    width: 100%;
+    height: 50%;
+  } */
+  
+  #contact .contact20 {
+    width: 20%;
+    height: 50%;
+    background-color: black;
+    float: left;
+  }
+  
+  #contact .contact80 {
+    width: 100%;
+    height: 50%;
+    background-color: #111418;
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    /* justify-content: center; */
+  }
+  
+  .divider2 {
+    width: 50%;
+    /* margin: 0 auto; */
+    margin-left: 50rem;
+  }
+  
+  .contact80 h1{
+    font-size: 3.5rem;
+    margin-top: 4rem;
+    margin-left: 45rem;
+    position: absolute;
+    left: auto;
+  }
+  
+  .contact-items {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto auto;
+    font-size: 5rem;
+    margin-top: 5rem;
+    margin-left: 70rem;
+  }
+  
+  .contact-li {
+    display: flex;
+    margin: 4rem;
+    justify-content: center;
+    font-size: 10rem;
+  }
+  
+  .contact-gh {
+    display: flex;
+    margin: 4rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+  }
+  
+  .contact-go {
+    display: flex;
+    margin: 4rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+  }
+}
+
+@media (min-width:1200px){
+  /* #contact {
+    width: 100%;
+    height: 50%;
+  } */
+  
+  #contact .contact20 {
+    width: 20%;
+    height: 50%;
+    background-color: black;
+    float: left;
+  }
+  
+  #contact .contact80 {
+    width: 100%;
+    height: 50%;
+    background-color: #111418;
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    /* justify-content: center; */
+  }
+  
+  .divider2 {
+    width: 50%;
+    /* margin: 0 auto; */
+    margin-left: 50rem;
+  }
+  
+  .contact80 h1{
+    font-size: 3.5rem;
+    margin-top: 5rem;
+    margin-left: 40rem;
+    position: absolute;
+    left: auto;
+  }
+  
+  .contact-items {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto auto;
+    font-size: 5rem;
+    margin-top: 5rem;
+    margin-left: 65rem;
+  }
+  
+  .contact-li {
+    display: flex;
+    margin: 4rem;
+    justify-content: center;
+    font-size: 10rem;
+  }
+  
+  .contact-gh {
+    display: flex;
+    margin: 4rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+  }
+  
+  .contact-go {
+    display: flex;
+    margin: 4rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+  }
 }
