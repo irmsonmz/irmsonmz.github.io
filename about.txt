@@ -1,0 +1,8 @@
+
+Gelişme
+Hi, My name is Irem Sonmez, a Junior Web Developer. I develop mobile applications and games individually with HTML, CSS and JS. Every day I work on new and simple applications that improve my skills. You may reach me about your projects.
+
+
+Giriş
+I help designers, small agencies and businesses bring their ideas to life. Powered by Django, VS Code and coffee, I turn your requirements into CMS-ified and ecommerce-ified websites - on time and on budget.
+I work on monoliths, micro-services and serverless solutions.
